@@ -1,0 +1,123 @@
+/* .container{
+    max-width: 70%;
+    margin-top: 75px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 475px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: relative;
+   display: flex;
+   align-items: center;
+   margin-bottom: 100px;
+} */
+body {
+  background: linear-gradient(to right, #f5f5f5, #f0e6d6); /* Gradiente suave de bege a branco */
+  color: #333333; /* Cor de texto escuro */
+  font-family: 'Roboto', sans-serif; /* Fonte moderna e elegante */
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 825px;
+  background: #ffffff; 
+  border: 1px solid #e0d4c5; 
+  border-radius: 16px; 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease-in-out; 
+  
+}
+.container:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15); /* Sombra mais proeminente ao passar o mouse */
+}
+
+image{
+    width: 30%;
+    height: 52%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.texto{
+    flex: 1;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+}
+h1{
+    font-weight: normal;
+  font-size: 70px;
+  font-family: "Sedan", serif;
+    font-style: normal;
+    padding-left: 3px;
+    margin-left: 3px;
+  
+}
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .sobre {
+    padding: 20px;
+    border-bottom: 1px solid #e0d4c5; 
+}
+.paragraph {
+  color: #4d4d4d; 
+  font-size: 30px; 
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}
+  h2 {
+    color: #1f2d3d; 
+    font-size: 28px; 
+    margin-bottom: 15px;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+}
+  h3{
+    color: #1f2d3d; 
+    font-size: 28px; 
+    margin-bottom: 15px;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em;
+  }
+ .container-atuacao{
+  margin-top: 10%;
+    max-width: 70%;
+    margin-top: 75px;
+    margin: 100 px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    text-overflow: 100%;
+ }
+ p{
+  font-size: 30px;
+    padding-right: 30%;
+    padding-bottom: 2%;
+    text-align: justify;
+  
+ }
+ footer a {
+  color: #f5f5f5; 
+  text-decoration: none; 
+  padding: 0 10px; 
+  transition: color 0.3s ease-in-out; 
+}
+
+footer a:hover {
+  color: #b0c4de; 
+}

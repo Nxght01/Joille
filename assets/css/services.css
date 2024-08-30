@@ -1,0 +1,68 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container da aba "Sobre nós" */
+.sobre-nos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da seção */
+.sobre-nos h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilização dos parágrafos */
+.sobre-nos p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Estilização de links */
+.sobre-nos a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.sobre-nos a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização de imagens */
+.sobre-nos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilização de listas */
+.sobre-nos ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sobre-nos ul li {
+    margin-bottom: 10px;
+}
